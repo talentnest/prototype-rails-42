@@ -1078,7 +1078,7 @@ function $w(string) {
   return string ? string.split(/\s+/) : [];
 }
 
-Array.from = $A;
+// Array.from = $A;
 
 
 (function() {
